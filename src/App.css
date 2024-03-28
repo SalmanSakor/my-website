@@ -64,28 +64,19 @@ a {
   gap: 15px;
 }
 .icons a {
-  color: var(--blue-color);
-  color: red;
   width: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid var(--blue-color);
+  border: 2px solid var(--line-color);
   padding: 2.5px 5px;
   border-radius: var(--main-radius);
   -webkit-border-radius: var(--main-radius);
   -moz-border-radius: var(--main-radius);
   -ms-border-radius: var(--main-radius);
   -o-border-radius: var(--main-radius);
-  transition: var(--main-transition);
-  -webkit-transition: var(--main-transition);
-  -moz-transition: var(--main-transition);
-  -ms-transition: var(--main-transition);
-  -o-transition: var(--main-transition);
 }
-.icons a:hover {
-  background-color: var(--red-color);
-}
+
 .btn {
   margin-top: calc(var(--main-margin) / 2);
   margin-bottom: calc(var(--main-margin) / 2);
@@ -183,6 +174,7 @@ div.btn {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--line-color);
   margin-top: calc(var(--main-margin) * 2);
 }
 

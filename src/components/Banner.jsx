@@ -15,8 +15,8 @@ const Banner = () => {
 
           <h1>Salman Sakor</h1>
 
-          <h3>And I'm a</h3>
-          <h3 className="text">Front End Developer</h3>
+          <h4>And I'm a</h4>
+          <h4 className="text">Front End Developer</h4>
           <p>Let's connect</p>
 
           <div className="icons">
@@ -33,7 +33,7 @@ const Banner = () => {
 
           {!phone && <div className="btn">+963 0985533957</div>}
 
-          <a href="./salman.pdf" download className="btn">
+          <a href="./Salman_Sakor_CV.pdf" download className="btn">
             Download CV
           </a>
         </div>
