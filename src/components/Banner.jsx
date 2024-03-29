@@ -33,7 +33,7 @@ const Banner = () => {
 
           {!phone && <div className="btn">+963 0985533957</div>}
 
-          <a href="./salman.pdf" download className="btn">
+          <a href="./salman_sakor.pdf" download className="btn">
             Download CV
           </a>
         </div>
