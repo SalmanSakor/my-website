@@ -149,6 +149,7 @@ div.btn {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   line-height: 1.6;
   -webkit-border-radius: calc(var(--main-radius) * 2);
   -moz-border-radius: calc(var(--main-radius) * 2);
@@ -156,6 +157,7 @@ div.btn {
   -o-border-radius: calc(var(--main-radius) * 2);
   color: var(--line-color);
 }
+
 .card-h2 {
   text-align: center;
   margin-bottom: var(--main-margin);
